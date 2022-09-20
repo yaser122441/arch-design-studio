@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/arch-design-studio/static/css/main.5946a3ac.css",
+    "main.js": "/arch-design-studio/static/js/main.1a0a6fdf.js",
+    "static/js/787.ddb99a1e.chunk.js": "/arch-design-studio/static/js/787.ddb99a1e.chunk.js",
+    "static/media/bannerPicture.jpg": "/arch-design-studio/static/media/bannerPicture.17661b49cde2ea418003.jpg",
+    "static/media/bannerPicture-2.jpg": "/arch-design-studio/static/media/bannerPicture-2.274038dfa9e39608408a.jpg",
+    "index.html": "/arch-design-studio/index.html",
+    "main.5946a3ac.css.map": "/arch-design-studio/static/css/main.5946a3ac.css.map",
+    "main.1a0a6fdf.js.map": "/arch-design-studio/static/js/main.1a0a6fdf.js.map",
+    "787.ddb99a1e.chunk.js.map": "/arch-design-studio/static/js/787.ddb99a1e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5946a3ac.css",
+    "static/js/main.1a0a6fdf.js"
+  ]
+}
