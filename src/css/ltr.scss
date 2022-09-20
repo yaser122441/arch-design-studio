@@ -1,0 +1,125 @@
+
+$breakpoint-screen:1600px;
+$breakpoint-tablet:990px;
+$breakpoint-mobile:500px;
+$breakpoint-small:200px;
+
+*{
+    box-sizing: border-box;
+}
+.main__section{
+    font-family: 'Roboto', sans-serif;
+    padding: 90px;
+    height: 100vh;
+    background: linear-gradient(
+        to bottom,
+        #232929 0%,
+        #232929 60%,
+        whitesmoke 60%,
+        whitesmoke 100%,
+    );
+}
+
+ .main__container{
+    position: relative;
+    height: 600px;
+}
+.img__row{
+    height: 100%;
+}
+.img__col{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("../Assets/bannerPicture.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+.title__col{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("../Assets/bannerPicture-2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.title__div{
+    text-align: right;
+    color: white;
+    position: absolute;
+    top: 30%;
+    right: 40px;
+    z-index: 10;
+}
+.btn{
+    outline:solid #424444 ;
+}
+
+.card__row{
+    position: relative;
+    left: 12px;
+    padding: 10px;
+    overflow: hidden;
+    width: 100%;
+    top: -120px;
+}
+html[dir="rtl"] .card__row{
+    background-color: rgb(197, 19, 19);
+}
+.card__component{
+    text-align: center;
+    background-color: white;
+    width: 250px;
+    margin: 1px;
+    height: 200px;
+    overflow: hidden;
+}
+@media (min-width: $breakpoint-small){
+    .card__row{
+        top: -230px;
+    }
+    .card__component{
+        img{
+            width: 60px;
+        }
+        position: relative;
+        right: 13%;
+        width: 200px;
+        height: 140px;
+        font-size: xx-small;
+    }
+
+}
+@media (min-width: $breakpoint-mobile){
+    .card__row{
+        top: -200px;
+    }
+    .card__component{
+        img{
+            width:60px
+        }
+        width: 300px;
+        height: 150px;
+        font-size: x-small;
+    }
+
+}
+
+@media (min-width: $breakpoint-tablet){
+    .card__component{
+        width: 250px;
+        height: 250px;
+        right: 15%;
+        font-size: small;
+        position: relative;
+    }
+}
+@media (min-width: $breakpoint-screen){
+    .card__component{
+        position: relative;
+        right: 10%;
+        width: 400px;
+        height: 300px;
+    }
+}
+.card__col{
+    margin: auto;
+    float: none;
+}
